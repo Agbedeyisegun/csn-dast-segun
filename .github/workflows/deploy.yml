@@ -26,8 +26,8 @@ jobs:
     steps:
       - name: Project Init
         run: |
-          if [ "${{ github.event.inputs.environment }}" == "production" ]; then
-            echo "Deploying to production..."
+          if [ "${{ github.event.inputs.environment }}" == "development" ]; then
+            echo "Deploying to development..."
           else
             echo "No input provided..."
           fi
