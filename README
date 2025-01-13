@@ -1,0 +1,40 @@
+Here is a sample README file for the project:
+
+CloudSec Network Webpage DAST
+
+This repository contains a simple webpage for CloudSec Network, along with a GitHub Actions workflow that runs Dynamic Application Security Testing (DAST) on the webpage.
+
+Table of Contents
+
+1. #introduction
+2. #dast-workflow
+3. #github-actions
+4. #results
+5. #license
+
+Introduction
+
+This webpage is designed to provide a central location for showcasing CloudSec Network services. The DAST workflow is used to identify potential security vulnerabilities in the webpage.
+
+DAST Workflow
+
+The DAST workflow uses the OWASP ZAP tool to scan the webpage for security vulnerabilities. The workflow is triggered on every push to the main branch.
+
+GitHub Actions
+
+The GitHub Actions workflow file is located in the .github/workflows directory. The workflow uses the following steps:
+
+1. Checkout the code
+2. Install OWASP ZAP
+3. Run OWASP ZAP scan
+4. Upload scan results to GitHub
+
+Results
+
+The scan results are uploaded to GitHub as an artifact. You can view the results by clicking on the "Actions" tab in the repository, then clicking on the "DAST" workflow.
+
+Acknowledgments
+
+- OWASP ZAP for providing the DAST tool
+- GitHub Actions for providing the workflow automation platform
+
