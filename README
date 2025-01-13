@@ -1,5 +1,3 @@
-Here is a sample README file for the project:
-
 CloudSec Network Webpage DAST
 
 This repository contains a simple webpage for CloudSec Network, along with a GitHub Actions workflow that runs Dynamic Application Security Testing (DAST) on the webpage.
